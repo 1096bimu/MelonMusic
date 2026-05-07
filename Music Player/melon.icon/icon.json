@@ -1,0 +1,109 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:0.33894,0.89941,0.82583,1.00000",
+      "display-p3:0.33808,0.96783,0.63976,1.00000"
+    ],
+    "orientation" : {
+      "start" : {
+        "x" : 0.5,
+        "y" : 1
+      },
+      "stop" : {
+        "x" : 0.5,
+        "y" : 0.3
+      }
+    }
+  },
+  "groups" : [
+    {
+      "blur-material" : null,
+      "hidden" : false,
+      "layers" : [
+        {
+          "fill" : {
+            "solid" : "display-p3:0.18408,0.56904,0.36512,1.00000"
+          },
+          "glass" : true,
+          "image-name" : "seed.png",
+          "name" : "seed"
+        },
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:0.39385,0.89287,0.54846,1.00000",
+              "display-p3:0.50577,0.96783,0.64893,1.00000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0.7040232609588822,
+                "y" : 0.9297937872393247
+              },
+              "stop" : {
+                "x" : 0.5,
+                "y" : 0.4134084843594835
+              }
+            }
+          },
+          "glass" : false,
+          "image-name" : "1.png",
+          "name" : "1"
+        },
+        {
+          "fill" : {
+            "linear-gradient" : [
+              "display-p3:0.33764,0.79508,0.45200,1.00000",
+              "display-p3:0.96783,0.96783,0.96783,1.00000"
+            ],
+            "orientation" : {
+              "start" : {
+                "x" : 0.28192771084337337,
+                "y" : 1
+              },
+              "stop" : {
+                "x" : 0.5,
+                "y" : 0.1386282445010595
+              }
+            }
+          },
+          "image-name" : "note.png",
+          "name" : "note",
+          "position" : {
+            "scale" : 1.02,
+            "translation-in-points" : [
+              0,
+              0
+            ]
+          }
+        },
+        {
+          "fill" : {
+            "solid" : "display-p3:0.22260,0.44521,0.33033,1.00000"
+          },
+          "glass" : true,
+          "hidden" : false,
+          "image-name" : "2.png",
+          "name" : "2"
+        }
+      ],
+      "position" : {
+        "scale" : 1.06,
+        "translation-in-points" : [
+          0,
+          0
+        ]
+      },
+      "shadow" : {
+        "kind" : "none",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : false,
+        "value" : 0.5
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "squares" : "shared"
+  }
+}

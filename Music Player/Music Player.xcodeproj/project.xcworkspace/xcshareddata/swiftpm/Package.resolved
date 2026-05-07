@@ -1,0 +1,15 @@
+{
+  "originHash" : "47454ecde5004b92d92cf7dc630a4b38a497a61c6ecb9a393c275d208869ab38",
+  "pins" : [
+    {
+      "identity" : "taglib-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/NCrusher74/TagLib-SPM",
+      "state" : {
+        "branch" : "master",
+        "revision" : "21944b693e7091fbcfe1cd0ab81fe1ba69075a9a"
+      }
+    }
+  ],
+  "version" : 3
+}
