@@ -1,8 +1,8 @@
 
 <p align="center">
-  <img src="screenshots/IMG_7568.png" width="240">
-  <img src="screenshots/IMG_7569.png" width="240">
-  <img src="screenshots/IMG_7571.png" width="240">
+  <img src="screenshots/IMG_7568.PNG" width="240">
+  <img src="screenshots/IMG_7569.PNG" width="240">
+  <img src="screenshots/IMG_7571.PNG" width="240">
 </p>
 # Melon Music
 
