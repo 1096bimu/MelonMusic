@@ -1,122 +1,194 @@
 # Melon Music
 
-**Melon Music** is a minimalist iPhone music player for people who keep their own local music library.
+**Melon Music** is an elegant, simple, beautiful, and free iPhone music player for local music libraries.
 
-It is built around a simple idea: a music player should make it effortless to choose what to hear next, build a playlist while listening, and navigate mixed-language libraries without burying the user under menus.
+It is designed for people who keep their own music files, care about a clean playback experience, and want an app that does not turn into a Swiss Army knife of cloud logins, streaming services, equalizers, account systems, and nested menus.
 
-No streaming accounts. No cloud-service dashboard. No bloated control panel. Just your music files, a focused library, and a playback interface designed around the way people actually listen.
+Melon Music focuses on one thing: making a local music library feel pleasant, fast, and natural to use.
 
----
+## Why another music player?
 
-## Why Melon Music?
+Most music players still follow the same old layout:
 
-Most local music players can technically do a lot. The problem is that simple actions often turn into a sequence of menus, confirmations, naming prompts, and management screens.
+- a progress bar most people rarely use for songs
+- a back button that sometimes restarts the current song and sometimes jumps to the previous song
+- playlist workflows that interrupt listening with menus, confirmations, and naming prompts
+- sorting systems that break down badly for Japanese, Chinese, and mixed-language libraries
+- giant feature lists that make simple actions harder than they should be
 
-Melon Music takes a different approach. The main playback screen is centered around an always-active temporary playlist. Choose a song and it plays immediately, just like a normal player — but it is also added to the current listening flow. Keep choosing songs, albums, artists, genres, search results, or saved mixes, and the playlist naturally grows as you listen.
+Melon Music takes a different approach.
 
-When you like the current flow, save it. Melon Music gives it a readable time-based name automatically, so you do not have to stop and name yet another “Untitled Playlist.”
+## A new playback layout
 
----
+Melon Music removes the traditional progress bar and back button.
 
-## Playback without the old transport-button baggage
+Instead, playback is centered around a persistent playlist. The previous and next songs are always visible, and you can move to them directly with a tap or swipe.
 
-Melon Music does not use a traditional progress bar or the usual overloaded back/forward controls.
+The goal is simple: you should always know what is playing, what comes next, and how to get there.
 
-Instead, it keeps nearby songs visible and reachable. You can move to neighboring songs directly with a tap or swipe, without guessing whether a back button will restart the current song or jump to the previous one.
+No guessing what the back button will do.  
+No tiny progress bar pretending to be the center of the music experience.  
+No control layout inherited from hardware limitations that no longer exist.
 
-The playback controls are intentionally simple:
+## Mixes: playlists without friction
 
-- **Play** is treated as a play intent, so repeated play commands do not interrupt what is already playing.
-- **Repeat** restarts the current song directly, with single-song repeat available by long press.
-- **Shuffle** reshuffles the current playlist without interrupting the current song.
-- Long-press actions provide useful secondary controls without adding more buttons.
+Melon Music has a different take on playlists.
 
-Small details matter. Transitions use subtle fade-outs, and destructive playlist actions are designed not to unexpectedly stop the current song.
+The current temporary playlist is always active. When you choose songs, albums, artists, genres, search results, or saved mixes, they can flow naturally into the current playlist without forcing you into a separate playlist-management mode.
 
----
+You can save the current playlist at any time as a **Mix**.
 
-## Mixes: playlists without paperwork
+No “Untitled Playlist.”  
+No naming prompt before you know whether the playlist matters.  
+No confirmation maze.  
+No interruption to the listening flow.
 
-Melon Music’s saved playlists are called **Mixes**.
+Saved Mixes can also be selected together and added back into the current playlist, making it easy to combine personal collections like building a mixtape.
 
-A Mix is not a separate mode you have to enter. It works like a reusable bundle of songs that can be added back into the current temporary playlist at any time.
+## Built for Japanese and Chinese music libraries
 
-You can:
+Melon Music pays special attention to mixed-language libraries.
 
-- Save the current temporary playlist as a Mix.
-- Add a Mix to the current playlist.
-- Select multiple Mixes and play them together.
-- Combine Mixes naturally, then save the result as a new Mix.
-- Build playlists from songs, albums, artists, genres, folders, or search results without going through a separate playlist editor.
+Japanese and Chinese music libraries often contain a messy mixture of:
 
-The goal is to make playlist creation feel like listening, not administration.
+- romanized tags
+- kana
+- kanji
+- simplified or traditional Chinese
+- English titles
+- artist sort tags
+- album artist sort tags
+- incomplete metadata
 
----
+Melon Music is designed to make these libraries easier to browse.
 
-## Designed for local files
+### Japanese sorting
 
-Melon Music uses an exposed app folder that is accessible from the iOS **Files** app. Drop music files into the app’s music folder, scan, and play.
+Japanese kana can be sorted by romaji, so titles beginning with か can appear around **K**, rather than being separated into a completely different kana block.
 
-Your files stay your files. Melon Music does not rewrite or reorganize them.
+Romaji sorting can be enabled or disabled depending on how you want your library to behave.
 
-For larger libraries, first-level folders can be excluded or re-enabled instantly. This makes it easy to keep different collections in separate folders — for example pop, classical, anime, soundtracks, or test files — and switch what the library uses without moving files or rebuilding everything from scratch.
+### Chinese sorting
 
----
+Chinese titles and artist names can be sorted with pinyin support when desired.
 
-## Smarter sorting for mixed-language libraries
+Pinyin sorting can also be disabled, which is useful for mixed Chinese/Japanese libraries where forcing every Han character into pinyin would interfere with Japanese entries.
 
-Melon Music is designed with Japanese, Chinese, and mixed-language music libraries in mind.
+### Sort tag support
 
-The library can sort by:
+Melon Music supports dedicated sort fields when your music library provides them.
 
-- Title
-- Artist
-- Album Artist
-- Genre
-- Album
+This is especially useful for carefully tagged libraries with fields such as artist sort, album artist sort, title sort, or album sort.
 
-Title, Artist, and Album views include fast scroll index labels generated from the actual library. The index is not just a fixed A–Z strip; it surfaces the letters and characters that matter most in your collection.
+Sort tag support is still surprisingly rare in local music players, but it matters a lot for serious libraries.
 
-For Japanese libraries, kana can be sorted by romaji so entries like 「か」 are easy to find under **K**, while romanized tags and kana titles stay closer together.
+## Fast index navigation
 
-For Chinese and mixed CJK libraries, the index can expose common characters directly instead of forcing everything through pinyin in a way that may interfere with Japanese entries.
+Melon Music generates fast index labels for Title, Artist, and Album views.
 
-Melon Music also supports dedicated sort fields when available, such as artist sort and album artist sort, for libraries that already maintain carefully tagged metadata.
+The side index is based on the actual contents of your library. It can surface the letters or characters that appear most often, making large mixed-language libraries much easier to navigate.
 
----
+Instead of forcing every library into a fixed A–Z index, Melon Music creates a small map of the library you actually have.
 
-## Search
+## Folder exclusion without moving files
 
-Search covers filenames, file paths, and metadata tags, so you can find music even when your library is only partially tagged or organized by folders.
+Melon Music uses a visible local folder that can be accessed from the iOS Files app.
 
-Search results can be added directly into the current playlist, making search another fast way to build a listening session.
+You can organize music however you want, and Melon Music will not modify your files.
 
----
+First-level folders can be excluded or re-enabled instantly. This makes it easy to keep separate libraries, such as:
 
-## Customization without clutter
+- Pop
+- Classical
+- Anime
+- Soundtracks
+- Podcasts
+- Test files
+- Large archives
 
-Melon Music is designed to look good with a clean, flat background, but optional customization is available.
+Excluding a folder does not require rebuilding the whole database, moving files, or destroying existing playlists.
 
-You can use:
+## Search across filenames, paths, and metadata
 
-- Custom background images
-- Accent color presets
-- Brightness adjustment
+Melon Music can search across:
+
+- file names
+- file paths
+- song titles
+- artists
+- album artists
+- albums
+- genres
+- other metadata tags
+
+This makes it useful even for libraries where metadata is incomplete, inconsistent, or only partially tagged.
+
+## Customization
+
+Melon Music is designed to look good with a clean flat background by default.
+
+For users who want a more personal look, it also supports:
+
+- custom background images
+- accent colors
+- light and dark appearance
+- color suggestions from the selected background image
+- simple hue and brightness controls instead of raw RGB sliders
+
+The goal is customization without turning the app into a design assignment.
+
+## Light and fast
+
+Melon Music is small and efficient.
+
+The app is around **10 MB**, and typical memory usage is around **50 MB** when custom backgrounds are not in use.
+
+It is designed to feel fast, focused, and lightweight.
+
+## Design philosophy
+
+Melon Music is not trying to be the most feature-packed music player.
+
+It is trying to be a better-shaped tool.
+
+A lot of music apps add features like a collector’s Swiss Army knife: every request becomes another blade, another tab, another settings page, another context menu. Eventually the app becomes wider than it is long.
+
+Melon Music is built around restraint:
+
+- fewer controls
+- fewer interruptions
+- fewer menus
+- better defaults
+- faster access to common actions
+- careful behavior around playback state
+- thoughtful sorting for real-world libraries
+
+It is a local music player for people who want their music library to feel simple again.
+
+## Major features
+
+- Local music playback from files stored on device
+- Visible Files app folder
+- Persistent temporary playlist
+- No traditional progress bar
+- No ambiguous back button
+- Tap or swipe to access neighboring songs
+- Frictionless Mix creation
+- Combine saved Mixes easily
+- Sort by Title, Artist, Album Artist, Genre, and Album
+- Optional romaji sorting for Japanese kana
+- Optional pinyin sorting for Chinese names and titles
+- Support for embedded sort tags
+- Fast index labels for Title, Artist, and Album
+- Folder exclusion without moving files
+- Search by filename, path, and metadata
+- Custom background image
+- Accent color customization
 - Light and dark appearance
-- Automatic accent suggestions from the selected background image
-
-Instead of raw RGB sliders and endless choices, customization is shaped around quick, usable decisions.
-
----
-
-## Lightweight by design
-
-Melon Music is intentionally small and fast. The app is built to stay focused on playback, library navigation, and playlist flow rather than becoming a general-purpose media toolbox.
-
-It is a music player with a point of view: fewer menus, fewer interruptions, better defaults, and more attention to the small interactions that make an app feel pleasant every day.
-
----
+- Small app size and low memory usage
 
 ## Status
 
-Melon Music is an iOS app project currently in active development.
+Melon Music is under active development.
+
+The app is built for iPhone and local music libraries.
