@@ -195,6 +195,4 @@ It is a local music player for people who want their music library to feel simpl
 
 ## Status
 
-Melon Music is under active development.
-
-The app is built for iPhone and local music libraries.
+Melon Music is waiting for Apple AppStore approval.
