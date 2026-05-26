@@ -58,20 +58,6 @@ First-level folders can be excluded or re-enabled instantly. This makes it easy 
 
 Excluding a folder does not require rebuilding the whole database, moving files, or destroying existing playlists.
 
-## Search across filenames, paths, and metadata
-
-Melon Music can search across:
-
-- file names
-- file paths
-- song titles
-- artists
-- album artists
-- albums
-- genres
-- other metadata tags
-
-This makes it useful even for libraries where metadata is incomplete, inconsistent, or only partially tagged.
 
 ## Customization
 
@@ -87,14 +73,6 @@ For users who want a more personal look, it also supports:
 
 The goal is customization without turning the app into a design assignment.
 
-## Light and fast
-
-Melon Music is small and efficient.
-
-The app is around **10 MB**, and typical memory usage is around **50 MB** when custom backgrounds are not in use.
-
-It is designed to feel fast, focused, and lightweight.
-
 ## Design philosophy
 
 Melon Music is not trying to be the most feature-packed music player.
@@ -104,14 +82,6 @@ It is trying to be a better-shaped tool.
 A lot of music apps add features like a collector’s Swiss Army knife: every request becomes another blade, another tab, another settings page, another context menu. Eventually the app becomes wider than it is long.
 
 Melon Music is built around restraint:
-
-- fewer controls
-- fewer interruptions
-- fewer menus
-- better defaults
-- faster access to common actions
-- careful behavior around playback state
-- thoughtful sorting for real-world libraries
 
 It is a local music player for people who want their music library to feel simple again.
 
