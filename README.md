@@ -32,26 +32,6 @@ Melon music supports sort fields for title, album and artist name (or album arti
 
 青瓜音乐也支持单纯的拼音排序，由于中文汉字的发音通常是固定的，不需要使用日语这种人工标注法。
 
-### Japanese sorting
-
-Japanese kana can be sorted by romaji, so titles beginning with か can appear around **K**, rather than being separated into a completely different kana block.
-
-Romaji sorting can be enabled or disabled depending on how you want your library to behave.
-
-### Chinese sorting
-
-Chinese titles and artist names can be sorted with pinyin support when desired.
-
-Pinyin sorting can also be disabled, which is useful for mixed Chinese/Japanese libraries where forcing every Han character into pinyin would interfere with Japanese entries.
-
-### Sort tag support
-
-Melon Music supports dedicated sort fields when your music library provides them.
-
-This is especially useful for carefully tagged libraries with fields such as artist sort, album artist sort, title sort, or album sort.
-
-Sort tag support is still surprisingly rare in local music players, but it matters a lot for serious libraries.
-
 ## Fast index navigation
 
 Melon Music generates fast index labels for Title, Artist, and Album views.
