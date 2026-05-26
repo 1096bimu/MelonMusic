@@ -30,6 +30,8 @@ Melon music supports sort fields for title, album and artist name (or album arti
 
 <img src="screenshots/sortdemo.png" width="540">
 
+青瓜音乐也支持单纯的拼音排序，由于中文汉字的发音通常是固定的，不需要使用日语这种人工标注法。
+
 ### Japanese sorting
 
 Japanese kana can be sorted by romaji, so titles beginning with か can appear around **K**, rather than being separated into a completely different kana block.
