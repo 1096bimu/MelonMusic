@@ -28,7 +28,7 @@ The core issue is Japanese Kanji have no fixed pronounceation and therefore cann
 
 Melon music supports sort fields for title, album and artist name (or album artist). The following screenshot demostrats what it does, without sort tags, 静か would just sort has a kanji somewhere at the very bottom among the other kanji in no sensible order. But with sort tag support, this song will be sorted with other し titles. Melon music has a toggle to fold し into S, which can be disabled should the user want to separate kana from English.
 
-<img src="screenshots/sortdemo.PNG" width="540">
+<img src="screenshots/sortdemo.png" width="540">
 
 ### Japanese sorting
 
