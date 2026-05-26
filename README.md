@@ -20,15 +20,33 @@ Instead, playback is centered around a persistent playlist. The previous and nex
 
 The goal is simple: you should always know what is playing, what comes next, and how to get there.
 
-## Built for Japanese and Chinese music libraries
+## ソートタグ対応
 
-Melon Music pays special attention to mixed-language libraries and Japanes in particular.
+Melon Music は、音楽ファイルに含まれる **ソートタグ** に対応しています。
 
-The core issue is Japanese Kanji have no fixed pronounceation and therefore cannot be reliably sorted by a computer. One remedy is the sort field tag, where you can manually enter the pronounceation of Kanji names so they could be sorted correctly. However almost no existing software other than giants like Apple Music support this sort field.
+ソートタグとは、画面に表示する名前とは別に、「並び替えのためだけに使う名前」を指定できるメタデータです。
 
-Melon music supports sort fields for title, album and artist name (or album artist). The following screenshot demostrats what it does, without sort tags, 静か would just sort as a kanji somewhere at the very bottom among the other kanji in no sensible order. But with sort tag support, this song will be sorted with other し titles. Melon music has a toggle to fold し into S, which can be disabled should the user want to separate kana from English.
+たとえば、曲名が **静かな夜に** の場合、画面にはそのまま **静かな夜に** と表示したいけれど、並び順としては **しずかなよるに** として扱いたいことがあります。このようなとき、ファイルにソートタグが入っていれば、Melon Music は表示名ではなくソートタグを使って並び替えることができます。
 
-<img src="screenshots/sortdemo.png" width="540">
+さらに Melon Music では、日本語かなをローマ字に変換して並び替えることもできます。  
+そのため、ソートタグに **しずか** が入っている曲は、ローマ字化された **shizuka** として扱われ、右側のインデックスでは **S** の位置から探せるようになります。
+
+<p align="center">
+  <img src="screenshots/sortdemo.png" width="540">
+</p>
+
+この仕組みにより、表示上は自然な日本語名を保ったまま、実際の検索・並び替えではより探しやすい順序を使えます。
+
+これは特に、次のようなライブラリで役立ちます。
+
+- 漢字・ひらがな・カタカナ・ローマ字が混在している
+- アーティスト名や曲名を日本語で表示したい
+- でも並び順は読み方に近づけたい
+- iTunes や Music app で設定したソート情報を活かしたい
+- 日本語、英語、中国語の曲が同じライブラリに入っている
+
+多くの音楽プレーヤーは、表示名だけを見て単純に並び替えます。  
+その場合、漢字の読み方は考慮されず、かなとカタカナも別々の場所に分かれたり、意図しない順番になったりします。
 
 青瓜音乐也支持单纯的拼音排序，如果你给日语标题全部加上排序提示，再打开拼音排序，那么日语和中文的汉字即可同时被正确排列。你甚至可以关闭罗马字转换，这样所有的日文都会被归到假名部分，中文和英文则使用英文字母排序。
 
