@@ -26,7 +26,7 @@ Melon Music pays special attention to mixed-language libraries and Japanes in pa
 
 The core issue is Japanese Kanji have no fixed pronounceation and therefore cannot be reliably sorted by a computer. One remedy is the sort field tag, where you can manually enter the pronounceation of Kanji names so they could be sorted correctly. However almost no existing software other than giants like Apple Music support this sort field.
 
-Melon music supports sort fields for title, album and artist name (or album artist). The following screenshot demostrats what it does, without sort tags, 静か would just sort has a kanji somewhere at the very bottom among the other kanji in no sensible order. But with sort tag support, this song will be sorted with other し titles. Melon music has a toggle to fold し into S, which can be disabled should the user want to separate kana from English.
+Melon music supports sort fields for title, album and artist name (or album artist). The following screenshot demostrats what it does, without sort tags, 静か would just sort as a kanji somewhere at the very bottom among the other kanji in no sensible order. But with sort tag support, this song will be sorted with other し titles. Melon music has a toggle to fold し into S, which can be disabled should the user want to separate kana from English.
 
 <img src="screenshots/sortdemo.png" width="540">
 
