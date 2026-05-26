@@ -30,7 +30,7 @@ Melon music supports sort fields for title, album and artist name (or album arti
 
 <img src="screenshots/sortdemo.png" width="540">
 
-青瓜音乐也支持单纯的拼音排序，由于中文汉字的发音通常是固定的，不需要使用日语这种人工标注法。
+青瓜音乐也支持单纯的拼音排序，如果你给日语标题全部加上排序提示，再打开拼音排序，那么日语和中文的汉字即可同时被正确排列。你甚至可以关闭罗马字转换，这样所有的日文都会被归到假名部分，中文和英文则使用英文字母排序。
 
 ## Fast index navigation
 
