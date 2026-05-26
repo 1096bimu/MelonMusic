@@ -12,18 +12,6 @@ It is designed for people who keep their own music files, care about a clean pla
 
 Melon Music focuses on one thing: making a local music library feel pleasant, fast, and natural to use.
 
-## Why another music player?
-
-Most music players still follow the same old layout:
-
-- a progress bar most people rarely use for songs
-- a back button that sometimes restarts the current song and sometimes jumps to the previous song
-- playlist workflows that interrupt listening with menus, confirmations, and naming prompts
-- sorting systems that break down badly for Japanese, Chinese, and mixed-language libraries
-- giant feature lists that make simple actions harder than they should be
-
-Melon Music takes a different approach.
-
 ## A new playback layout
 
 Melon Music removes the traditional progress bar and back button.
@@ -32,41 +20,15 @@ Instead, playback is centered around a persistent playlist. The previous and nex
 
 The goal is simple: you should always know what is playing, what comes next, and how to get there.
 
-No guessing what the back button will do.  
-No tiny progress bar pretending to be the center of the music experience.  
-No control layout inherited from hardware limitations that no longer exist.
-
-## Mixes: playlists without friction
-
-Melon Music has a different take on playlists.
-
-The current temporary playlist is always active. When you choose songs, albums, artists, genres, search results, or saved mixes, they can flow naturally into the current playlist without forcing you into a separate playlist-management mode.
-
-You can save the current playlist at any time as a **Mix**.
-
-No “Untitled Playlist.”  
-No naming prompt before you know whether the playlist matters.  
-No confirmation maze.  
-No interruption to the listening flow.
-
-Saved Mixes can also be selected together and added back into the current playlist, making it easy to combine personal collections like building a mixtape.
-
 ## Built for Japanese and Chinese music libraries
 
-Melon Music pays special attention to mixed-language libraries.
+Melon Music pays special attention to mixed-language libraries and Japanes in particular.
 
-Japanese and Chinese music libraries often contain a messy mixture of:
+The core issue is Japanese Kanji have no fixed pronounceation and therefore cannot be reliably sorted by a computer. One remedy is the sort field tag, where you can manually enter the pronounceation of Kanji names so they could be sorted correctly. However almost no existing software other than giants like Apple Music support this sort field.
 
-- romanized tags
-- kana
-- kanji
-- simplified or traditional Chinese
-- English titles
-- artist sort tags
-- album artist sort tags
-- incomplete metadata
+Melon music supports sort fields for title, album and artist name (or album artist). The following screenshot demostrats what it does, without sort tags, 静か would just sort has a kanji somewhere at the very bottom among the other kanji in no sensible order. But with sort tag support, this song will be sorted with other し titles. Melon music has a toggle to fold し into S, which can be disabled should the user want to separate kana from English.
 
-Melon Music is designed to make these libraries easier to browse.
+<img src="screenshots/sortdemo.PNG" width="540">
 
 ### Japanese sorting
 
