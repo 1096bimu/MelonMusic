@@ -97,7 +97,7 @@ Melon Music is not trying to be the most feature-packed music player.
 
 It is trying to be a better-shaped tool.
 
-A lot of music apps add features like a collector’s Swiss Army knife: every request becomes another blade, another tab, another settings page, another context menu. Eventually the app becomes wider than it is long.
+A lot of music apps add features like a Swiss Army knife: every request becomes another blade, another tab, another settings page, another context menu. Eventually the app becomes wider than it is long.
 
 Melon Music is built around restraint:
 
@@ -127,4 +127,5 @@ It is a local music player for people who want their music library to feel simpl
 
 ## Status
 
-Melon Music is waiting for Apple AppStore approval.
+Melon Music is now available on Apple AppStore for free 
+https://apps.apple.com/ca/app/melon-music/id6767312118
