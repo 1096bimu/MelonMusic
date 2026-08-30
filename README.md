@@ -76,6 +76,11 @@ First-level folders can be excluded or re-enabled instantly. This makes it easy 
 
 Excluding a folder does not require rebuilding the whole database, moving files, or destroying existing playlists.
 
+## ReplayGain Melon Edition
+
+A custom replay gain scanning algorithm that better preserves the intended dynamics of songs, maintains perceived loudness consistency, effective against a wide variety of musical content, while running at a lower performance cost than ReplayGain 2.0.
+
+Traditional replay gain mechanisms can slap a -10db dynamic range across your library, Melon music intelligently manages waste of signal range and reduces this loss to around 3db in most cases.
 
 ## Customization
 
